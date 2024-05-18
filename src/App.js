@@ -15,8 +15,9 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<SiteHome/>}/>
-  
-        
+        <Route path="/userlist" element={<Userlist/>}/>
+        <Route path="/adduser" element={<Adduser/>}/>
+      
 
       </Routes>
       <div className='foot'>

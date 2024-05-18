@@ -17,6 +17,12 @@ import {Link} from "react-router-dom";
           <li className="nav-item">
             <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
           </li>
+          <li className="nav-item">
+            <Link to="/userlist" className="nav-link" >User List</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/adduser" className="nav-link" >Add User</Link>
+          </li>
           
           
           
